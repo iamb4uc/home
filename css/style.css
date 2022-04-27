@@ -1,0 +1,87 @@
+/* General formating */
+body {
+  font-family: sans-serif;
+}
+li {
+  display: list-item;
+}
+
+/* Menu */
+#menu {
+  clear: both;
+  color: #3e4e50;
+  overflow: hidden;
+  background-color: #3e4e50;
+  padding: 0.7ex;
+  border-top: 1px solid #3e4e50;
+  border-bottom: 1px solid #3e4e50;
+  text-align: center;
+}
+#menu a {
+    padding: 0.5ex 1ex;
+    color: #fce5d4;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #1f2728;
+
+}
+
+
+/* top */
+#heading {
+  text-align: center;
+}
+
+/* #headerlink {
+  color: #1b2223;
+  font-size: 3.78em;
+  text-decoration: none;
+}
+#headersubtitle {
+  font-size: 0.75em;
+    font-style: italic;
+    margin-left: 1em;
+    font-family: sans-serif;
+} */
+
+/* Data */
+
+.para {
+  text-align: justify;
+  max-width: 90%;
+  padding: 0.5em;
+
+}
+
+/* Links */
+a {
+  display: inline-table;
+}
+
+
+#sidebar {
+  float: left;
+  margin: 0 1px 0 0;
+  padding: 1em 0;
+  border-right: 1px solid #3e4e50;
+  width: 200px;
+}
+
+#sidebar li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar a {
+  text-decoration: none;
+  color: #1b2223;
+}
+
+#sidebar li a {
+    display: block;
+    margin: 0;
+    padding: 0.8ex 2em 0.8ex 1em;
+}
