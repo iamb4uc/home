@@ -48,12 +48,12 @@ li {
 
 /* Data */
 
-.para {
-  text-align: justify;
-  max-width: 90%;
-  padding: 0.5em;
-
+#para {
+  margin: 0 0 0 200px;
+  padding: 1.5em;
 }
+
+
 
 /* Links */
 a {
