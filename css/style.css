@@ -1,6 +1,6 @@
 /* General formating */
 body {
-  font-family: sans-serif;
+  font-family: monospace;
 }
 li {
   display: list-item;
@@ -9,13 +9,13 @@ li {
 /* Menu */
 #menu {
   clear: both;
-  color: #3e4e50;
   overflow: hidden;
   background-color: #3e4e50;
   padding: 0.7ex;
   border-top: 1px solid #3e4e50;
   border-bottom: 1px solid #3e4e50;
   text-align: center;
+  font-size: 19px;
 }
 #menu a {
     padding: 0.5ex 1ex;
@@ -34,6 +34,18 @@ li {
   text-align: center;
 }
 
+#linuxhead {
+  clear: both;
+  color: #fce5d4;
+  overflow: hidden;
+  background-color: #3e4e50;
+  padding: 0.7ex;
+  border-top: 1px solid #3e4e50;
+  border-bottom: 1px solid #3e4e50;
+  text-align: center;
+  font-size: 19px;
+}
+
 /* #headerlink {
   color: #1b2223;
   font-size: 3.78em;
@@ -47,10 +59,20 @@ li {
 } */
 
 /* Data */
+#linuxbody {
+  margin: 0 0 20px 20px;
+  text-align: justify;
+  font-family: monospace;
+  font-size: 17px;
+}
 
 #para {
   margin: 0 0 0 200px;
   padding: 1.5em;
+  text-align: justify;
+  font-family: monospace;
+  font-size: 17px;
+
 }
 
 
@@ -67,6 +89,7 @@ a {
   padding: 1em 0;
   border-right: 1px solid #3e4e50;
   width: 200px;
+  font-size: 19px;
 }
 
 #sidebar li {
