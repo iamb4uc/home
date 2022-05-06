@@ -15,7 +15,6 @@ li {
   border-top: 1px solid #3e4e50;
   border-bottom: 1px solid #3e4e50;
   text-align: center;
-  font-size: 125%;
 }
 #menu a {
     padding: 0.5ex 1ex;
@@ -43,7 +42,6 @@ li {
   border-top: 1px solid #3e4e50;
   border-bottom: 1px solid #3e4e50;
   text-align: center;
-  font-size: 130%;
 }
 
 /* #headerlink {
@@ -63,15 +61,13 @@ li {
   margin: 0 0 20px 20px;
   text-align: justify;
   font-family: sans-serif;
-  font-size: 120%;
 }
 
 #para {
   margin: 0 0 0 200px;
   padding: 1.5em;
   /* text-align: justify; */
-  font-family: sans-serif;
-  font-size: 120%;
+  font-family: sans-serif;;
 
 }
 
@@ -89,7 +85,6 @@ a {
   padding: 1em 0;
   border-right: 1px solid #3e4e50;
   width: 200px;
-  font-size: 125%;
 }
 
 #sidebar li {
