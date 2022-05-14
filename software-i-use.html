@@ -8,49 +8,126 @@
 <body>
   <div id="heading">
     <a href="https://iamb4uc.github.io/home/">
-         <img src="images/smd2.png" height="200">
+         <img src="images/topimg.webp">
        </a>&nbsp;
   </div>
   <div id="menu">
-    <h1>software that i use on a daily basis</h1>
+    <h2>software that i use on a daily basis</h2>
   </div>
   <div id="sidebar">
-    <li> <a href="index.html">about</a> </li>
+    <li> <a href="index.html">About</a> </li>
+    <li> <a href="gallary.html">Gallary</a> </li>
+    <li> <a href="software-i-use.html"> <b>Software I Use</b> </a> </li>
+    <!-- <ul> <a href="#os">operating system</a> </ul>
+    <ul> <a href="#dmnwm">desktop environment or window manager</a> </ul>
+    <ul> <a href="#ide">ide</a> </ul>
+    <ul> <a href="#misc">misc</a> </ul> -->
 
-    <li> <a href="software-i-use.html"> <b>software i use</b> </a> </li>
-    <ul> <a href="#os">operating system</a> </ul>
-    <ul> <a href="#dmnwm">Destop Environment or Window Manager</a> </ul>
-    <ul> <a href="#ide">IDE</a> </ul>
 
 
-    <li> <a href="gallary.html">gallary</a> </li>
-    <li> <a href="https://github.com/iamb4uc">github</a> </li>
-    <li> <a href="mailto:b4uc@tuta.io">contact me</a> </li>
-    <li> <a href="faq.html">faq</a> </li>
+    <li> <a href="mailto:b4uc@tuta.io">Mail</a> </li>
+    <li> <a href="faq.html">FAQ</a> </li>
     </div>
 
   <div id="para">
-    <p>Here's a comprehensive list of the software I use on a daily basis, and the reason why I use them instead of others will be given besides them too. This page will be very long. So you can click the sub-headers on the side bar to jump to a certain topic.</p>
-
-      <h2 id="os">Q: What operating system do you use?</h2>
-      <p>Well the answer is pretty easy, its GNU/Linux and BSD. Well to be precise I currently have Arch Linux, Void Linux on my laptop and both of them have their own purpose. I use Arch for Its repo, tho i tried using Artix since I hate systemd I kindda dont like it, I like original distro without it being based on something else. And I use Void for its minimalism, I love runnit, its fast, snappy and very <em>fun</em> to manage.</p>
-      <p>Besides that, I run debain on my server, Gentoo and openbsd on my desktop.</p>
-      In short:
-      <ol>
-        <li> <a href="https://archlinux.org/">Arch Linux</a> </li>
-        <li> <a href="https://www.debian.org/">Debian</a> </li>
-        <li> <a href="https://www.gentoo.org/">Gentoo</a> </li>
-        <li> <a href="https://voidlinux.org/">Void Linux</a> </li>
-        <li> <a href="https://www.openbsd.org/">OpenBSD</a></li>
-      </ol>
-
-      <h2 id="dmnwm">Q: What Desktop Environment(DE) or Window Manager(WM) do you use?</h2>
-      <p>I dont use any desktop environment since I find them bloated with useless <em>shit</em> they market as features and have a billion of dependencies. I use <b>DWM</b> as my main window manager since it is written in C, it is easy for me to customize and understand what each piece of code does also I prefer WM cause these are light weight and are very customizable. But if you want my recomendation on Desktop Environment, you can use <b>xfce4</b> since the base version is not as bloated as DE such as Gnome or KDE without compromising productivity.</p>
-      <h5>If you want my DWM configs you can checkout either my <a href="https://github.com/iamb4uc/DWM">DWM(gruvbox_minimal)</a> files or my <a href="https://github.com/iamb4uc/dotfiles">dotfiles(dracula_DWM)</a> with some additional dotfiles.</h5>
-
-      <h2 id="ide">Q: What IDE do you use?</h2>
-      <p>I dont use IDE's since all of them are either bloated as fuck or just straight up propriatory blobs. I use vim for doing everything, its very customizeable with the features I actually need. I use VimPLUG for my plugin management</p>
-
+      <table id="swiu">
+      <thead>
+        <tr>
+          <th> <b>catagory</b> </th>
+          <th><b>platform</b></th>
+          <th><b>interface</b></th>
+          <th><b>software i use</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">operating system</td>
+          <td>computer</td>
+          <td>-</td>
+          <td><a href="https://archlinux.org/" target="_blank" rel="noopener noreferrer">arch linux</a><br><a href="https://www.debian.org/" target="_blank" rel="noopener noreferrer">debian 10</a><br><a href="https://gentoo.org/" target="_blank" rel="noopener noreferrer">gentoo</a><br><a href="https://openbsd.org/" target="_blank" rel="noopener noreferrer">openbsd</a><br><a href="https://voidlinux.org/" target="_blank" rel="noopener noreferrer">void linux</a></td>
+        </tr>
+        <tr>
+          <td>mobile</td>
+          <td>-</td>
+          <td><a href="https://lineageos.org/" target="_blank" rel="noopener noreferrer">lineage os</a></td>
+        </tr>
+        <tr>
+          <td>desktop environment<br>or window manager<br></td>
+          <td>computer</td>
+          <td>gui</td>
+          <td>DWM</td>
+        </tr>
+        <tr>
+          <td>ide/text editor</td>
+          <td>computer</td>
+          <td>cli</td>
+          <td>vim, nvim<br></td>
+        </tr>
+        <tr>
+          <td rowspan="3">browser</td>
+          <td rowspan="2">computer</td>
+          <td>gui</td>
+          <td>firefox, librefox, midori, gnu icecat.</td>
+        </tr>
+        <tr>
+          <td>cli</td>
+          <td>lynx</td>
+        </tr>
+        <tr>
+          <td>mobile</td>
+          <td>gui</td>
+          <td>bromide, kiwi browser, firefox nightly</td>
+        </tr>
+        <tr>
+          <td rowspan="2">terminal emulator</td>
+          <td>computer</td>
+          <td>-</td>
+          <td>st, xfce4-terminal</td>
+        </tr>
+        <tr>
+          <td>mobile</td>
+          <td>-</td>
+          <td>termux</td>
+        </tr>
+        <tr>
+          <td rowspan="2">file manager</td>
+          <td rowspan="2">computer</td>
+          <td>gui</td>
+          <td>pcmanfm, thunar</td>
+        </tr>
+        <tr>
+          <td>cli</td>
+          <td>ranger</td>
+        </tr>
+        <tr>
+          <td rowspan="2">torrent client</td>
+          <td>computer</td>
+          <td>gui</td>
+          <td>qbittorrent</td>
+        </tr>
+        <tr>
+          <td>mobile</td>
+          <td>gui</td>
+          <td>libretorrent</td>
+        </tr>
+        <tr>
+            <td rowspan="2">shell prompt</td>
+            <td>computer</td>
+            <td>-</td>
+            <td>bash, dash, zsh(with oh-my-zsh)</td>
+          </tr>
+          <tr>
+            <td>mobile</td>
+            <td>-</td>
+            <td>bash</td>
+          </tr>
+      </tbody>
+      </table>
+</div>
+<div id="footer">
+  <a href="https://github.com/iamb4uc">
+    <img src="images/github_footer.png" width="10%">
+  </a>
 </div>
   </body>
   </html>
