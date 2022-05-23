@@ -2,7 +2,7 @@
 
 /* General formating */
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono';
   background: #1a1a1d;
   color: white;
 }
@@ -43,7 +43,7 @@ nav a:hover {
 #para {
   margin: 0 0 0 200px;
   padding: 1.5em;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono';
 
 }
 #para a {
