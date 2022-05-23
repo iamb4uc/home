@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 /* General formating */
 body {
-  font-family: sans-serif;
-  background-color: #1d2021;
-  color: #fbf1c7;
+  font-family: 'Roboto Mono', monospace;
+  background: #1a1a1d;
+  color: white;
 }
 
 li {
@@ -10,29 +12,25 @@ li {
 }
 
 /* Menu */
-#menu {
+nav {
   clear: both;
   overflow: hidden;
-  background-color: #ebdbb2;
+  background-color: #c3073f;
   padding: 0.3ex;
-  border-top: 1px solid #ebdbb2;
-  border-bottom: 1px solid #ebdbb2;
+  border-top: 1px solid #c3073f;
+  border-bottom: 1px solid #c3073f;
   text-align: center;
 }
-#menu a {
+nav a {
     padding: 0.5ex 1ex;
-    color: #1d2021;
+    color: #1a1a1d;
     text-decoration: none;
 }
 
-#menu a:hover {
-    background-color: #bdae93;
-
+nav a:hover {
+  background-color:
 }
 
-#menu h2 {
-  color: #1d2021;
-}
 
 
 /* top */
@@ -45,12 +43,12 @@ li {
 #para {
   margin: 0 0 0 200px;
   padding: 1.5em;
-  font-family: sans-serif;;
+  font-family: 'Roboto Mono', monospace;
 
 }
 #para a {
   text-decoration: none;
-  color: #458588;
+  color: #c3073f;
 }
 
 
@@ -65,7 +63,7 @@ a {
   float: left;
   margin: 0 1px 0 0;
   padding: 1em 0;
-  border-right: 1px solid #3e4e50;
+  border-right: 1px solid #4e4e50;
   width: 200px;
 }
 
@@ -77,13 +75,16 @@ a {
 
 #sidebar a {
   text-decoration: none;
-  color: #fbf1c7;
+  color: white;
+}
+#sidebar a:hover {
+  color: #950740;
 }
 
 #sidebar li a {
-    display: block;
-    margin: 0;
-    padding: 0.8ex 2em 0.8ex 1em;
+  display: block;
+  margin: 0;
+  padding: 0.8ex 2em 0.8ex 1em;
 }
 
 
@@ -91,11 +92,11 @@ a {
   text-align: center;
 }
 
-#swiu {
+#table {
   border-collapse: collapse;
 }
 
-#swiu td {
+#table td {
   border-color: #504945;
   border-style: solid;
   border-width: 1px;
@@ -103,7 +104,7 @@ a {
   padding: 10px 5px;
   word-break: normal;
 }
-#swiu th {
+#table th {
   border-color: #504945;
   border-style: solid;
   border-width: 1px;
@@ -111,4 +112,9 @@ a {
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
+}
+
+#para img {
+  float: left;
+  padding: 0 20px 20px 0;
 }
