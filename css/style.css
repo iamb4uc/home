@@ -21,6 +21,7 @@ nav {
   border-bottom: 1px solid #c3073f;
   text-align: center;
 }
+
 nav a {
     padding: 0.5ex 1ex;
     color: #1a1a1d;
@@ -31,33 +32,26 @@ nav a:hover {
   background-color:
 }
 
-
-
 /* top */
 #heading {
   text-align: center;
 }
 
-
 /* Data */
 #para {
   margin: 0 0 0 200px;
   padding: 1.5em;
-  font-family: 'Roboto Mono';
-
 }
+
 #para a {
   text-decoration: none;
   color: #c3073f;
 }
 
-
-
 /* Links */
 a {
   display: inline-table;
 }
-
 
 #sidebar {
   float: left;
@@ -77,6 +71,7 @@ a {
   text-decoration: none;
   color: white;
 }
+
 #sidebar a:hover {
   color: #950740;
 }
@@ -86,7 +81,6 @@ a {
   margin: 0;
   padding: 0.8ex 2em 0.8ex 1em;
 }
-
 
 #footer {
   text-align: center;
@@ -104,6 +98,7 @@ a {
   padding: 10px 5px;
   word-break: normal;
 }
+
 #table th {
   border-color: #504945;
   border-style: solid;
@@ -116,5 +111,5 @@ a {
 
 #para img {
   float: left;
-  padding: 0 20px 20px 0;
+  padding: 0 10px 0 0;
 }
