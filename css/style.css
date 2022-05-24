@@ -5,7 +5,6 @@ body {
   font-family: 'Roboto Mono';
   background: #1a1a1d;
   color: white;
-  font-size: 16px;
 }
 
 li {
@@ -14,12 +13,8 @@ li {
 
 /* Menu */
 nav {
-  clear: both;
-  overflow: hidden;
   background-color: #c3073f;
   padding: 0.3ex;
-  border-top: 1px solid #c3073f;
-  border-bottom: 1px solid #c3073f;
   text-align: center;
 }
 
@@ -30,7 +25,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color:
+  color: white;
 }
 
 /* top */
@@ -57,7 +52,6 @@ a {
 
 #sidebar {
   float: left;
-  margin: 0 1px 0 0;
   padding: 1em 0;
   border-right: 1px solid #4e4e50;
   width: 200px;
