@@ -7,6 +7,10 @@ body {
   color: white;
 }
 
+body a {
+  color: #c3073f;
+}
+
 li {
   display: list-item;
 }
@@ -19,9 +23,9 @@ nav {
 }
 
 nav a {
-    padding: 0.5ex 1ex;
-    color: #1a1a1d;
-    text-decoration: none;
+  padding: 0.5ex 1ex;
+  color: #1a1a1d;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -37,12 +41,10 @@ nav a:hover {
 #para {
   margin: 0 0 0 200px;
   padding: 1.5em;
-
 }
 
 #para a {
   text-decoration: none;
-  color: #c3073f;
 }
 
 /* Links */
@@ -59,50 +61,33 @@ a {
 
 #sidebar li {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 #sidebar a {
   text-decoration: none;
-  color: white;
 }
 
 #sidebar a:hover {
-  color: #950740;
+  color: white;
 }
 
 #sidebar li a {
-  display: block;
-  margin: 0;
   padding: 0.8ex 2em 0.8ex 1em;
 }
 
-#footer {
-  text-align: center;
-}
-
-#table {
-  border-collapse: collapse;
-}
-
 #table td {
-  border-color: #504945;
+  border-color: #4e4e50;
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
   padding: 10px 5px;
-  word-break: normal;
 }
 
 #table th {
-  border-color: #504945;
+  border-color: #4e4e50;
   border-style: solid;
   border-width: 1px;
-  font-weight: normal;
-  overflow: hidden;
   padding: 10px 5px;
-  word-break: normal;
 }
 
 #para img {
