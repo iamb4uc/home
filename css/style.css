@@ -47,6 +47,11 @@ nav a:hover {
   text-decoration: none;
 }
 
+#para img {
+  float: left;
+  padding: 0px 10px 0 0;
+}
+
 /* Links */
 a {
   display: inline-table;
@@ -88,9 +93,4 @@ a {
   border-style: solid;
   border-width: 1px;
   padding: 10px 5px;
-}
-
-#para img {
-  float: left;
-  padding: 0 10px 0 0;
 }
