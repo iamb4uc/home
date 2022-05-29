@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>iamb4uc</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <title>iamb4uc</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
 <body>
 
   <div id="heading">
     <a href="https://iamb4uc.github.io/home/">
-         <img src="images/topimg.svg" width="50%">
-       </a>&nbsp;
+      <img src="images/topimg.svg" width="50%">
+    </a>&nbsp;
   </div>
   <nav>
     <a href="index.html"><b>HOME</b></a>
@@ -18,14 +20,17 @@
   </nav>
 
   <div id="sidebar">
-    <li> <a href="index.html"> <b>About</b> </a> </li>
+    <li> <a href="index.html">About</a> </li>
     <li> <a href="software-i-use.html">Software I Use</a> </li>
-    <li> <a href="books.html">Book recommendation</a> </li>
+    <li> <a href="books.html"><b>Book recommendation</b></a> </li>
     <ul>
       <a href="#programming">Programming Books</a>
     </ul>
     <ul>
-      <a href="#unix">UNIX and GNU/Linux</a>
+      <a href="#os">Operating Systems</a>
+    </ul>
+    <ul>
+      <a href="#security">Cyber-Security</a>
     </ul>
     <ul>
       <a href="#selfhelp">Self Help</a>
@@ -37,18 +42,19 @@
     <li> <a href="donate.html">Support Me</a> </li>
     <li> <a href="mailto:b4uc@tuta.io">Mail</a> </li>
     <li> <a href="github.com/iamb4uc" target="_blank">GitHub</a> </li>
-    </div>
+  </div>
 
-    <div id="para">
-      <h1>Here are some books I recommend everyone.</h1>
-      <p>These are not referal link, just for your privacy I decided not to monitize any kind of data from this website, tho these might have some amazon links but you can just search up the name and get some alternatives.</p>
-      <br>
+  <div id="para">
+    <h1>Books I recommend everyone.</h1>
+    <p>These are not referal link, just for your privacy I decided not to monitize any kind of data from this website, tho these might have some amazon links but you can just search up the name and get some alternatives.</p>
+    <br>
 
-      <!-- ID formating
+    <!-- ID formating
       <div id="book">
         <img src="" width="100px">
         <p><b>Name: <br>
           Author: <br>
+          Publisher: <br>
           Version: <br>
           ISBN-13: <br>
           ISBN-10: <br>
@@ -59,107 +65,252 @@
       </div>
      -->
 
-      <div id="programming">
-        <h2>Programming books</h2>
+    <div id="programming">
+      <h1>Programming books</h1>
+      Topics: <a href="#c">C</a>, <a href="#python">Python</a>, <a href="#rust">Rust</a>, <a href="#bash">Bash</a>, <a href="#dsalgo">Data Structure & Algorithms</a>
+      <!-- C Programming Books -->
+      <div id="c">
+        <h2>Standard-C(ANSI C)</h2>
         <div id="book">
           <img src="books/c_programming_language_2nd_edition.jpg" width="100px">
           <p><b>Name: The C Programming Language, 2nd Edition<br>
-          Author: <a href="https://www.cs.princeton.edu/~bwk/" target="_blank">Brian W. Kernighan</a> | <a href="https://www.bell-labs.com/usr/dmr/www/" target="_blank">Dennis M. Ritchie</a><br>
-          Version: 2nd Edition<br>
-          ISBN-13: 978-0131103627<br>
-          ISBN-10: 0131103628<br>
-          Buy: <a href="https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628" target="_blank">Amazon</a> | <a href="https://www.betterworldbooks.com/product/detail/C-Programming-Language-9780131103627">Better World Books(used and recommended)</a>
-        </b></p>
-          <p>This book is one of those books that I cant recommend enough, it got me properly started with <em>Standard C</em> or as this book and everyone else descibes it, ANSI C. Tho you would need a little bit of knowledge about programming like knowing what keywords, variables, loops and functions, its worth reading if you want to learn C or interested in an new language</p>
+              Author: <a href="https://www.cs.princeton.edu/~bwk/" target="_blank">Brian W. Kernighan</a> | <a href="https://www.bell-labs.com/usr/dmr/www/" target="_blank">Dennis M. Ritchie</a><br>
+              Publisher: Pearson; 2nd edition (March 22, 1988)<br>
+              Version: 2nd Edition<br>
+              ISBN-13: 978-0131103627<br>
+              ISBN-10: 0131103628<br>
+              Buy: <a href="https://www.thriftbooks.com/w/the-c-programming-language-by-brian-w-kernighan-dennis-m-ritchie/248846" target="_blank">Thriftbooks(used)</a> | <a href="https://www.betterworldbooks.com/product/detail/C-Programming-Language-9780131103627" target="_blank">Better World Books(used)</a> | <a href="https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628"
+                target="_blank">Amazon</a>
+            </b></p>
+          <p>This book is one of those books that I cant recommend enough, it got me properly started with <em>Standard C</em> or as this book and everyone else descibes it, ANSI C. Tho you would need a little bit of knowledge about programming like
+            knowing what keywords, variables, loops and functions, its worth reading if you want to learn C or interested in an new language</p>
+          <br>
+        </div>
+
+        <div id="book">
+          <img src="books/effective_c.png" width="100px">
+          <p><b>Name: Effective C: An Introduction to Professional C Programming<br>
+              Author: <br>
+              Publisher: No Starch Press (August 4, 2020)<br>
+              Version: -<br>
+              ISBN-13: 978-1718501041<br>
+              ISBN-10: 1718501048<br>
+              Buy: <a href="https://www.thriftbooks.com/w/c-as-a-second-language/26240830/" target="_blank">Thriftbooks</a> | <a href="https://nostarch.com/Effective_C" target="_blank">No Starch Press</a> | <a href="https://www.amazon.com/Effective-Introduction-Professional-Robert-Seacord/dp/1718501048" target="_blank">Amazon</a>
+            </b></p>
+          <p>This book is marketed as being an introduction to how "C" is used in a professional environment, if you are someone who is familier with ANSI C you can read this to get more idea about its implementation in a real world senario.</p>
+          <br>
+        </div>
+
+      </div>
+      <br>
+      <!-- Python Programming Books -->
+      <div id="python">
+        <h2>Python</h2>
+        <div id="book">
+          <img src="books/python_tricks.jpg" width="100px">
+          <p><b>Name: Python Tricks: A Buffet of Awesome Python Features<br>
+              Author: <a href="https://dbader.org/">Dan Bader</a><br>
+              Publisher: Dan Bader; 1st edition (October 25, 2017)<br>
+              Version: -<br>
+              ISBN-13: 978-1775093305<br>
+              ISBN-10: 1775093301<br>
+              Buy: <a href="https://www.thriftbooks.com/w/python-tricks-a-buffet-of-awesome-python-features_dan-bader/18767636" target="_blank">Thriftbooks(used)</a> | <a href="https://www.amazon.com/Python-Tricks-Buffet-Awesome-Features/dp/1775093301" target="_blank">Amazon</a>
+            </b></p>
+          <p>YOOOOOOO!!!, This book is pure gold when it come to python-related books. It has every single tips and tricks a python dev needs to work efficiently and make less errors. Tho this need you to aleast know what python is or you actually work with python scripts and codes its still a decent book. Just buy it if you are a python developer you wont regret it.</p>
+          <br>
+        </div>
+
+        <div id="book">
+          <img src="books/fluent_python.jpg" width="100px">
+          <p><b>Name: Fluent Python: Clear, Concise, and Effective Programming<br>
+              Author: <br>
+              Publisher: <br>
+              Version: <br>
+              ISBN-13: 978-1491946008<br>
+              ISBN-10: 1491946008<br>
+              Buy: <a href="https://www.thriftbooks.com/w/fluent-python-clear-concise-and-effective-programming_luciano-ramalho/13622579/item/#edition=13305138&idiq=19032740" target="_blank">Thriftbooks(used)</a> | <a href="https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008" target="_blank">Amazon</a>
+            </b></p>
+          <p></p>
           <br>
         </div>
       </div>
+      <!-- Rust Programming Books -->
+      <div id="rust">
+        <h2>Rust</h2>
 
-      <br>
-
-      <div id="unix">
-        <h2>UNIX and GNU/Linux</h2>
-        <div id="book">
-          <img src="books/the_linux_commandline.jpg" width="100px">
-          <p><b>Name: The Linux Command Line, 2nd Edition: A Complete Introduction<br>
-          Author: William Shotts<br>
-          Version: 2nd Edition<br>
-          ISBN-13: 978-1593279523<br>
-          ISBN-10: 1593279523<br>
-          Buy: <a href="https://nostarch.com/tlcl2">no starch press</a> | <a href="https://www.amazon.com/Linux-Command-Line-2nd-Introduction/dp/1593279523" target="_blank">Amazon</a>
-          </b></p>
-          <p>It is one of those mainstream books that everyone recommends people to read. People who know me know that I dispise the mainstream for a reason idk why? but I do, but this book is different, it is one of those books I tell new people who are getting into GNU/Linux to read, its like an essential books that kinda is a cheatsheat for the terminal, it shows you all the major command you can use to execute tasks on the terminal like manipulating files, creating files etc.</p>
-          <br>
-        </div>
+      </div>
+      <!-- Bash Programming -->
+      <div id="bash">
+        <h2>Bash</h2>
         <div id="book">
           <img src="books/wicked_cool_shell_scripts_2nd_edition.jpg" width="100px">
           <p><b>Name: Wicked Cool Shell Scripts, 2nd Edition: 101 Scripts for Linux, OS X, and UNIX Systems<br>
-            Author: Dave Taylor | Brandon Perry<br>
-            Version: 2nd Edition<br>
-            ISBN-13: 978-1593276027<br>
-            ISBN-10: 1593276028<br>
-            Buy: <a href="https://nostarch.com/wcss2">no starch press</a> | <a href="https://www.amazon.com/Wicked-Cool-Shell-Scripts-2nd/dp/1593276028">Amazon</a>
-          </b></p>
-          <p>I cannot recommend this book enough, even if you are new to shell scipting, you can still learn a lot from this book. It can be difficult for you if you never worked with scripts or the command line on a POSIX-complaint operating system but you can surely learn something new.</p>
+              Author: Dave Taylor | Brandon Perry<br>
+              Publisher: <br>
+              Version: 2nd Edition<br>
+              ISBN-13: 978-1593276027<br>
+              ISBN-10: 1593276028<br>
+              Buy: <a href="https://www.thriftbooks.com/w/wicked-cool-shell-scripts_dave-taylor/847016" target="_blank">Thriftbooks(used)</a> | <a href="https://nostarch.com/wcss2" target="_blank">No Starch Press</a> | <a href="https://www.amazon.com/Wicked-Cool-Shell-Scripts-2nd/dp/1593276028" target="_blank">Amazon</a>
+            </b></p>
+          <p>I cannot recommend this book enough, even if you are new to shell scipting, you can still learn a lot from this book. It can be difficult for you if you never worked with scripts or the command line on a POSIX-complaint operating system
+            but you can surely learn something new.</p>
           <br>
         </div>
+      </div>
+      <!-- DataStructure and Algorithms -->
+      <div id="dsalgo">
+        <h2>Data Structure and Algorithms</h2>
         <div id="book">
-          <img src="books/absolute_free_bsd_3rd_edition.png" width="100px">
-          <p><b>Name: Absolute FreeBSD, 3rd Edition: The Complete Guide to FreeBSD<br>
-            Author: <a href="https://mwl.io/">Michael W. Lucas</a><br>
+          <img src="books/algorithmic_thinking.jpg" width="100px">
+          <p><b>Name: Algorithmic Thinking<br>
+              Author: <a href="https://www.danielzingaro.com/index.php" target="_blank">Daniel Zingaro</a> <br>
+              Publisher: No Starch Press (December 15, 2020)<br>
+              Version: -<br>
+              ISBN-13: 978-1718500808<br>
+              ISBN-10: 1718500807<br>
+              Buy: <a href="https://www.thriftbooks.com/w/algorithmic-thinking--a-problem-based-introduction/26312079" target="_blank">Thriftbooks</a> | <a href="https://nostarch.com/algorithmic-thinking" target="_blank">No Starch Press</a> | <a href="https://www.amazon.com/Algorithmic-Thinking-Problem-Based-Daniel-Zingaro/dp/1718500807" target="_blank">Amazon</a>
+            </b></p>
+          <p>One of the best book to learn data structure from, it goes after the concept of solving problem with better data structure and algorithms.</p>
+          <br>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div id="os">
+      <h1>Operating Systems</h1>
+      Topics: <a href="#bsd">BSD</a>, <a href="#linux">Linux</a>, <a href="#unix">UNIX</a>
+      <div id="book">
+        <img src="books/the_linux_commandline.jpg" width="100px">
+        <p><b>Name: The Linux Command Line, 2nd Edition: A Complete Introduction<br>
+            Author: William Shotts<br>
+            Publisher: <br>
+            Version: 2nd Edition<br>
+            ISBN-13: 978-1593279523<br>
+            ISBN-10: 1593279523<br>
+            Buy: <a href="https://www.thriftbooks.com/w/the-linux-command-line_william-e-shotts-jr/599264" target="_blank">Thriftbooks(used)</a> | <a href="https://nostarch.com/tlcl2" target="_blank">No Starch Press</a> | <a href="https://www.amazon.com/Linux-Command-Line-2nd-Introduction/dp/1593279523" target="_blank">Amazon</a>
+          </b></p>
+        <p>It is one of those mainstream books that everyone recommends people to read. People who know me know that I dispise the mainstream for a reason idk why? but I do, but this book is different, it is one of those books I tell new people who
+          are getting into GNU/Linux to read, its like an essential books that kinda is a cheatsheat for the terminal, it shows you all the major command you can use to execute tasks on the terminal like manipulating files, creating files etc.</p>
+        <br>
+      </div>
+      <div id="book">
+        <img src="books/absolute_free_bsd_3rd_edition.png" width="100px">
+        <p><b>Name: Absolute FreeBSD, 3rd Edition: The Complete Guide to FreeBSD<br>
+            Author: <a href="https://mwl.io/" target="_blank">Michael W. Lucas</a><br>
+            Publisher: <br>
             Version: 3rd Edition<br>
             ISBN-13: 978-1593278922<br>
             ISBN-10: 1593278926<br>
-            Buy: <a href="https://nostarch.com/absfreebsd3">no starch press</a> | <a href="https://www.amazon.com/Absolute-FreeBSD-3rd-Complete-Guide/dp/1593278926">Amazon</a>
+            Buy: <a href="https://nostarch.com/absfreebsd3" target="_blank">No Starch Press</a> | <a href="https://www.amazon.com/Absolute-FreeBSD-3rd-Complete-Guide/dp/1593278926" target="_blank">Amazon</a>
           </b></p>
-          <p>This is the absolutly one of the best books I found on FreeBSD, I really love the way this books covers FreeBSD and dives deep into server management and understanding the workings of the operating system responsible for running some of worlds biggest servers like Netflix, EMC etc.</p>
-          <br>
-        </div>
-        <div id="book">
-          <img src="books/tls_mastery_tux.jpg" width="100px">
-          <img src="books/tls_mastery_beastie.jpg" width="100px">
-          <p><b>Name: TLS Mastery: Tux and Beastie editions<br>
-            Author: <a href="https://mwl.io/">Michael W. Lucas</a><br>
+        <p>This is the absolutly one of the best books I found on FreeBSD, I really love the way this books covers FreeBSD and dives deep into server management and understanding the workings of the operating system responsible for running some of
+          worlds biggest servers like Netflix, EMC etc.</p>
+        <br>
+      </div>
+      <div id="book">
+        <img src="books/tls_mastery_tux.jpg" width="100px">
+        <img src="books/tls_mastery_beastie.jpg" width="100px">
+        <p><b>Name: TLS Mastery: Tux and Beastie editions<br>
+            Author: <a href="https://mwl.io/" target="_blank">Michael W. Lucas</a><br>
+            Publisher: <br>
             Version: -<br>
             ISBN-13: 978-1642350531<br>
             ISBN-10: 1642350532<br>
-            Buy(Tux Edition): <a href="https://shop.aer.io/mwl/p/TLS_Mastery_Tux/9781642350531-8826">Michael W. Lucas(recommended)</a> | <a href="https://www.amazon.in/TLS-Mastery-Michael-W-Lucas/dp/1642350532">Amazon</a> <br>
-            Buy(Beastie Edition): <a href="https://shop.aer.io/mwl/p/TLS_Mastery_Beastie/9781642350524-8826">Michael W. Lucas(recommended)</a> | <a href="https://www.amazon.in/TLS-Mastery-Michael-W-Lucas/dp/1642350516">Amazon</a>
+            Buy(Tux Edition): <a href="https://www.thriftbooks.com/w/tls-mastery-tux-edition/28440482" target="_blank">Thriftbooks(used)</a> | <a href="https://shop.aer.io/mwl/p/TLS_Mastery_Tux/9781642350531-8826" target="_blank">Michael W. Lucas(recommended)</a> | <a href="https://www.amazon.in/TLS-Mastery-Michael-W-Lucas/dp/1642350532" target="_blank">Amazon</a> <br>
+            Buy(Beastie Edition): <a href="https://shop.aer.io/mwl/p/TLS_Mastery_Beastie/9781642350524-8826" target="_blank">Michael W. Lucas(recommended)</a> | <a href="https://www.amazon.in/TLS-Mastery-Michael-W-Lucas/dp/1642350516" target="_blank">Amazon</a>
           </b></p>
-          <p>This book is a part of 2 books ie TLS Mastery by Michael W. Lucas, this make you understand how TLS works and what it actually is. In this day and age, TLS is the most basic need we require in a website, it provides a secured connection ie encryption for most of the major ecommerce and banking sites along with other sites that lets you have a unique profile and lets you log into that profile. It protects your passwords and your privacy. Let's Encrypt transformed TLS from an expensive tool to a free one. TLS understanding and debugging is an essential sysadmin skill you must have.</p>
-          <br>
-        </div>
-
-      </div>
-      <br>
-      <div id="selfhelp">
-        <h2>Self Help</h2>
-        <img src="books/the_subtle_art_of_not_giving_a_f*ck.jpg" width="100px">
-        <p><b>Name: The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life<br>
-          Author: <a href="https://markmanson.net/">Mark Manson</a> <br>
-          Version: -<br>
-          ISBN-13: <br>
-          ISBN-10: <br>
-          Buy: <a href="https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713" target="_blank">Amazon</a>
-        </b></p>
-        <p>Not much about to say, this book is a self help book, if you like reading self help books or never tried one I recommend this one, its not 10/10 but its my personal opinion.</p>
+        <p>This books are a part of 2 books ie TLS Mastery by Michael W. Lucas, this make you understand how TLS works and what it actually is. In this day and age, TLS is the most basic thing we need in a website, it provides a secured connection ie
+          encryption for most of the major ecommerce and banking sites along with other sites that lets you have a unique profile and lets you log into that profile. It protects your passwords and your privacy. Let's Encrypt transformed TLS from an
+          expensive tool to a free one. TLS understanding and debugging is an essential sysadmin skill you must have.</p>
         <br>
-        <img src="books/atomic_habits.jpg" width="100px">
-        <p><b>Name: Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones<br>
-          Author: <a href="https://jamesclear.com/">James Clear</a> <br>
-          Version: -<br>
-          ISBN-13: <br>
-          ISBN-10: <br>
-          Buy: <a href="https://www.amazon.com/Atomic-Habits-Changing-Million-Bestseller/dp/B09GG8HM95" target="_blank">Amazon</a>
-        </b></p>
-
-      </div>
-      <br>
-      <div id="misc">
-        <h2>Miscellaneous</h2>
-
       </div>
 
     </div>
+
+    <br>
+
+    <div id="security">
+      <h2>Cyber-Security</h2>
+      <div id="book">
+        <img src="" width="100px">
+        <p><b>Name: <br>
+            Author: <br>
+            Publisher: <br>
+            Version: <br>
+            ISBN-13: <br>
+            ISBN-10: <br>
+            Buy:
+          </b></p>
+        <p></p>
+        <br>
+      </div>
+
+      <div id="book">
+        <img src="" width="100px">
+        <p><b>Name: <br>
+            Author: <br>
+            Publisher: <br>
+            Version: <br>
+            ISBN-13: <br>
+            ISBN-10: <br>
+            Buy:
+          </b></p>
+        <p></p>
+        <br>
+      </div>
+
+      <div id="book">
+        <img src="" width="100px">
+        <p><b>Name: <br>
+            Author: <br>
+            Publisher: <br>
+            Version: <br>
+            ISBN-13: <br>
+            ISBN-10: <br>
+            Buy:
+          </b></p>
+        <p></p>
+        <br>
+      </div>
+    </div>
+
+    <br>
+
+    <div id="selfhelp">
+      <h2>Self Help</h2>
+      <img src="books/the_subtle_art_of_not_giving_a_f*ck.jpg" width="100px">
+      <p><b>Name: The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life<br>
+          Author: <a href="https://markmanson.net/" target="_blank">Mark Manson</a> <br>
+          Publisher: Harper; 2nd Edition (September 13, 2016)<br>
+          Version: 2nd Edition<br>
+          ISBN-13: 978-0062457714<br>
+          ISBN-10: 0062457713<br>
+          Buy: <a href="https://www.thriftbooks.com/w/the-subtle-art-of-not-giving-a-fck-a-counterintuitive-approach-to-living-a-good-life_mark--manson/11437515/" target="_blank">Thriftbooks(used)</a> | <a href="https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713" target="_blank">Amazon</a>
+        </b></p>
+      <p>Not much about to say, this book is a self help book, if you like reading self help books or never tried one I recommend this one, its not 10/10 but its my personal opinion.</p>
+      <br>
+      <img src="books/atomic_habits.jpg" width="100px">
+      <p><b>Name: Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones<br>
+          Author: <a href="https://jamesclear.com/" target="_blank">James Clear</a> <br>
+          Publisher: <br>
+          Version: -<br>
+          ISBN-13: 978-0735211292<br>
+          ISBN-10: 0735211299<br>
+          Buy: <a href="https://www.thriftbooks.com/w/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones_james-clear/19493521" target="_blank">Thriftbooks</a> | <a href="https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299" target="_blank">Amazon</a>
+        </b></p>
+
+    </div>
+
+    <br>
+
+    <div id="misc">
+      <h2>Miscellaneous</h2>
+
+    </div>
+
+  </div>
 </body>
+
 </html>
