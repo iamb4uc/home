@@ -9,6 +9,7 @@ body {
 
 body a {
   color: #c3073f;
+  display: inline-table;
 }
 
 li {
@@ -50,11 +51,6 @@ nav a:hover {
 #para img {
   float: left;
   padding: 0px 10px 0 0;
-}
-
-/* Links */
-a {
-  display: inline-table;
 }
 
 #sidebar {
