@@ -12,10 +12,6 @@ body a {
   color: #c3073f;
   display: inline-table;
 }
-header {
-  padding: 24px;
-}
-
 
 /* Menu */
 nav {
@@ -56,4 +52,9 @@ nav a:hover {
 
 #blog a {
   text-decoration: none;
+}
+
+#blog img {
+  float: left;
+  padding: 0px 10px 0 0;
 }
