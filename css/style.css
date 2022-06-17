@@ -1,7 +1,7 @@
 /* General formating */
 body {
   margin: 1em auto;
-  font: 1.2em/1.62 sans-serif;
+  font-family:sans-serif;
 }
 
 body a {
@@ -36,7 +36,7 @@ nav a:hover {
 
 /* Data */
 #para {
-  margin: 0 0 0 200px;
+  margin: 0 300px 0 300px;
   padding: 0 1.5em;
 }
 
@@ -53,7 +53,7 @@ nav a:hover {
   text-align: right;
   float: left;
   padding: 1em 0;
-  width: 200px;
+  width: 300px;
 }
 
 #sidebar li {
